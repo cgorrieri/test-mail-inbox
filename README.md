@@ -140,6 +140,11 @@ DELETE /mailbox/{sessionId}
 
 ## Usage Example (E2E Test)
 
+> A ready-to-use TypeScript client lives in [`src/client`](src/client) (a
+> `Mailbox` helper with polling and OTP extraction). See the full
+> [E2E Integration Guide](docs/e2e-integration.md) for Playwright fixtures and
+> patterns.
+
 ```typescript
 import { nanoid } from "nanoid";
 
